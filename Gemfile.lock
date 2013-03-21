@@ -1,0 +1,17 @@
+GIT
+  remote: git://github.com/rnhurt/google_anymote.git
+  revision: 2992aee3590df9e2cf6d31cebfba2e14be926b8f
+  specs:
+    google_anymote (0.0.5)
+      ruby_protobuf (~> 0.4.11)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    ruby_protobuf (0.4.11)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  google_anymote!
