@@ -1,7 +1,5 @@
 #!/bin/bash
 
-mkdir -p /etc/ssl/sse.rit.edu/
-
 openssl req \
   -new \
   -newkey rsa:2048 \

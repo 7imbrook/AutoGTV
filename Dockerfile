@@ -13,5 +13,4 @@ RUN bundle install
 COPY ./ /app
 RUN cd certs && ./gen.sh
 
-ENTRYPOINT /app/entrypoint.sh
-CMD []
+ENTRYPOINT ["/app/entrypoint.sh"]
