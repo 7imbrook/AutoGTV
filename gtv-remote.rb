@@ -10,3 +10,4 @@ elsif ARGV[0] == "url"
 end
 GTVRemote::unpair
 
+Process.exit(0)
